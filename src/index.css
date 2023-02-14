@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../src/assets/fonts/Lato.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../src/assets/fonts/Inter.ttf") format("TrueType");
+}
+
+body {
+  background: #0d1714;
+  color: #ffffff;
+  overflow-x: hidden;
+
+  margin: 0;
+  font-family: "Lato", "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace, "Lato", "Inter";
+}
